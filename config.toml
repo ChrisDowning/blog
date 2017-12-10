@@ -1,0 +1,46 @@
+baseurl = "https://www.example.com"
+languageCode = "en"
+title = "Chris Downing"
+theme = "kiss"
+copyright = "&copy; Chris Downing 2017"
+# disqusShortname = "shortname"
+# googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true 
+
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+# adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "This is the home title" # Title for home page
+poweredby = true # Adds powered by Hugo and Kiss below Copyright section
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = "madasbeans"
+github = "ChrisDowning"
+email = "chrisdowning250@gmail.com"
+# linkedin = ""
+#facebook = ""
+#instagram = ""
+#codepen = ""
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
+hardLineBreak = true
+noEmptyLineBeforeBlock = true
