@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris Downing</title>
+    <link>https://chrisdowning.co.uk/</link>
+    <description>Recent content on Chris Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; Chris Downing 2017</copyright>
+    <lastBuildDate>Sun, 22 Apr 2018 22:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chrisdowning.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Minio</title>
+      <link>https://chrisdowning.co.uk/posts/minio/</link>
+      <pubDate>Sun, 22 Apr 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://chrisdowning.co.uk/posts/minio/</guid>
+      <description>Minio is a simple, S3 compatible object storage server which can be deployed in a Docker container or as a simple binary and provides built-in deduplication over objects.
+The application design is very much aligned with the microservices model - configuration is fairly minimal, and in the simplest case Minio can be launched using just a filesystem path in which the objects are to be stored. Each instance of Minio effectively operates in &amp;ldquo;single-user&amp;rdquo; mode, with one access key/secret key pair - in order to offer Minio to multiple users from the same server or cluster, the administrator need only deploy more Minio instances targeting a different directory per user (or &amp;ldquo;tenant&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>Hello, world</title>
+      <link>https://chrisdowning.co.uk/posts/hello/</link>
+      <pubDate>Sun, 22 Apr 2018 21:30:00 +0000</pubDate>
+      
+      <guid>https://chrisdowning.co.uk/posts/hello/</guid>
+      <description>This is a place for me to put written content which doesn&amp;rsquo;t have another home. Mostly, it&amp;rsquo;ll be technically-focused, perhaps with some commentary on blogs, articles and white papers I&amp;rsquo;ve written elsewhere.</description>
+    </item>
+    
+    <item>
+      <title>About the author</title>
+      <link>https://chrisdowning.co.uk/posts/about/</link>
+      <pubDate>Sun, 22 Apr 2018 21:00:00 +0000</pubDate>
+      
+      <guid>https://chrisdowning.co.uk/posts/about/</guid>
+      <description>Chris Downing is a UK-based consultant focused on the high-performance computing (HPC) industry.
+He hates writing about himself in the third person.</description>
+    </item>
+    
+  </channel>
+</rss>
