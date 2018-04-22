@@ -1,0 +1,34 @@
+baseurl = "https://chrisdowning.co.uk"
+languageCode = "en"
+title = "Chris Downing"
+theme = "kiss"
+copyright = "&copy; Chris Downing 2017"
+# disqusShortname = "shortname"
+# googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true 
+
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+# adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "This is the home title" # Title for home page
+poweredby = true # Adds powered by Hugo and Kiss below Copyright section
+
+[params.social]
+twitter = "madasbeans"
+github = "ChrisDowning"
+# email = ""
+# linkedin = ""
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
+hardLineBreak = true
+noEmptyLineBeforeBlock = true

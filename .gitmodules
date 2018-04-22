@@ -1,0 +1,7 @@
+[submodule "themes/kiss"]
+	path = themes/kiss
+	url = https://github.com/ribice/kiss
+[submodule "public"]
+	path = public
+	url = git@github.com:ChrisDowning/chrisdowning.github.io.git
+	branch = master
