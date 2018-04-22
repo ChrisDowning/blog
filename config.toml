@@ -14,9 +14,8 @@ enableRobotsTXT = true
 customCSS = ["css/custom.css"]
 
 [params.info]
-# adsense = "" # Adsense ID (ID only, without ca-pub-)
-enableSocial = false # Adds OpenGraph and Twitter cards
-homeTitle = "This is the home title" # Title for home page
+#enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "Chris Downing"
 poweredby = true # Adds powered by Hugo and Kiss below Copyright section
 
 [params.social]
