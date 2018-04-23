@@ -1,5 +1,5 @@
 ---
-title: "xcp-ng"
+title: "XCP-ng"
 date: 2018-04-23T22:00:00Z
 draft: false
 ---
